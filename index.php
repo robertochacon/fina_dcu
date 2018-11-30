@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
 	<link rel="stylesheet" type="text/css" href="plugins/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<script src="plugins/jquery.js"></script>
 	<script src="plugins/bootstrap/js/bootstrap.js"></script>
 </head>
@@ -86,7 +87,7 @@ if (count($datos) == null) {
 
 foreach($datos as $items){ ?>
 
-<div class="col-sm-12 col-md-6 col-lg-3">
+<div class="col-sm-12 col-md-6 col-lg-3 animated bounceIn" style="margin-top: 20px;">
 	<div class="card recetas_item" style="width:100%">
 	  <img class="card-img-top" src="img/recetas/<?=$items['imagen']?>" alt="Card image" style="height:180px;">
 	  <div class="card-body">

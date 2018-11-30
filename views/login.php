@@ -19,10 +19,10 @@
 			<center>
 			<img class="text-center" src="../img/user.png" style="margin:auto;width:200px;padding:10px;"></center>
 			<div class="form-group">
-				<input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usuario" value="">
+				<input type="text" name="usuario" id="usuario" class="form-control" placeholder="Usuario" value="" required="">
 			</div>
 			<div class="form-group">
-				<input type="password" name="clave" id="clave" class="form-control" placeholder="Clave">
+				<input type="password" name="clave" id="clave" class="form-control" placeholder="Clave" required="">
 			</div>
 			<div class="form-group">
 				<div class="row">

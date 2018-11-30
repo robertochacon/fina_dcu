@@ -6,11 +6,11 @@
 <form action="../controllers/guardarReceta.php" method="post" enctype="multipart/form-data">
   <div class="form-group">
     <label for="titulo">Titulo</label>
-    <input type="text" class="form-control" name="titulo" id="titulo" placeholder="Titulo">
+    <input type="text" class="form-control" name="titulo" id="titulo" placeholder="Titulo" required="">
   </div>
   <div class="form-group">
     <label for="categoria">Categoria</label>
-    <select class="form-control" name="categoria" id="categoria">
+    <select class="form-control" name="categoria" id="categoria" required="">
       <?php
       include("../libs/conexion.php");
       $sql = "SELECT * FROM categoria";
@@ -23,13 +23,13 @@
   </div>
   <div class="form-group">
     <label for="descripcion">Descripcion</label>
-    <textarea id="ckeditor" name="descripcion" class="form-control" id="descripcion" rows="3"></textarea>
+    <textarea id="ckeditor" name="descripcion" class="form-control" id="descripcion" rows="3" required=""></textarea>
   </div>
-  <input type="file" name="imagen" class="form-control">
+  <input type="file" name="imagen" class="form-control" required="">
   <br>
   <div class="form-group">
     <label for="video">Video</label>
-    <input type="text" class="form-control" name="video" id="video" placeholder="Link del video">
+    <input type="text" class="form-control" name="video" id="video" placeholder="Link del video" required="">
   </div>
   <br>
   <input type="submit" value="Guardar" class="btn btn-success">
