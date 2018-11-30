@@ -7,12 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="../plugins/bootstrap/css/bootstrap.css">
 	<script src="../plugins/jquery.js"></script>
 	<script src="../plugins/bootstrap/js/bootstrap.js"></script>
+  	<link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 <body class="bg-dark">
 
 <div class="container">
 
-	<div class="col-sm-12 col-md-6 mt-10" style="background-color:#f1f1f1; margin: auto;margin-top: 50px;">
+	<div class="col-sm-12 col-md-6 mt-10 animated bounceIn" style="background-color:#f1f1f1; margin: auto;margin-top: 50px;">
 		<div class="container">
 		<form id="login-form" action="../controllers/userLogin_controller.php" method="post" style="">
 			<h2 class="text-center text-success">Iniciar sesion</h2>

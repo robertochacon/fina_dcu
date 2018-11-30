@@ -57,12 +57,16 @@
 
   L.marker([18.459581, -69.937438]).addTo(mymap)
     .bindPopup("<b>A&B Masters Escuela Dominicana de Alimentos y Bebidas</b>").openPopup();
+
   L.marker([18.472037, -69.939069]).addTo(mymap)
     .bindPopup("<b>Risk Escuela Culinaria</b>").openPopup();
+
   L.marker([18.472197, -69.900872]).addTo(mymap)
     .bindPopup("<b>Repostería Miriam Gautreaux</b>").openPopup();
+
   L.marker([18.473416, -69.888252]).addTo(mymap)
     .bindPopup("<b>Jacada Academy</b>").openPopup();
+    
   L.marker([18.474561, -69.926795]).addTo(mymap)
     .bindPopup("<b>Escuela de Gastronomia Mariano Moreno</b>").openPopup();
 

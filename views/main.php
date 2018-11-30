@@ -16,9 +16,9 @@ if (count($datos) == null) {
 
 foreach($datos as $items){ ?>
 
-<div class="col-sm-12 col-md-6 col-lg-3">
+<div class="col-sm-12 col-md-6 col-lg-6" style="margin-top:20px;">
 	<div class="card recetas_item" style="width:100%">
-	  <img class="card-img-top" src="../img/recetas/<?=$items['imagen']?>" alt="Card image" style="height:180px;">
+	  <img class="card-img-top" src="../img/recetas/<?=$items['imagen']?>" alt="Card image" style="width:100%;">
 	  <div class="card-body">
 	    <h5 class="card-title"><?= $items['titulo']; ?></h5>
 	    <p class="card-text"><?= $items['descripcion']; ?></p>

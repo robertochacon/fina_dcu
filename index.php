@@ -14,7 +14,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg menuFuera">
+<nav class="navbar navbar-expand-lg menuFuera animated fadeInDown">
   <a class="navbar-brand text-success" href="index.php">BabyRecests</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -87,7 +87,7 @@ if (count($datos) == null) {
 
 foreach($datos as $items){ ?>
 
-<div class="col-sm-12 col-md-6 col-lg-3 animated bounceIn" style="margin-top: 20px;">
+<div class="col-sm-12 col-md-6 col-lg-3 animated fadeIn" style="margin-top: 20px;">
 	<div class="card recetas_item" style="width:100%">
 	  <img class="card-img-top" src="img/recetas/<?=$items['imagen']?>" alt="Card image" style="height:180px;">
 	  <div class="card-body">

@@ -6,12 +6,13 @@
 	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
 	<link rel="stylesheet" type="text/css" href="../plugins/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+  <link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 <body>
 
 
 
-<nav class="navbar navbar-expand-lg menuFuera">
+<nav class="navbar navbar-expand-lg menuFuera animated fadeInDown">
   <a class="navbar-brand text-success" href="../index.php">BabyRecests</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -31,7 +32,7 @@
 
 <div class="container" style="margin-top:80px;">
 
-<div class="row" style="margin-top:20px;">
+<div class="row animated fadeIn" style="margin-top:20px;">
 
 <?php 
 include("../libs/conexion.php");
