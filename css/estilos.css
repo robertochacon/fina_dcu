@@ -1,0 +1,51 @@
+body{
+	background-color: #1C2833;
+}
+.menuFuera{
+	background-color:#17202A;
+	box-shadow:0px 3px 5px black;
+	position:fixed;;
+	width:100%;
+	top:0px;
+	z-index: 9999;
+}
+.recetas{
+	background-color: white;
+	border-radius: 5px;
+	margin:40px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	box-shadow: 0px 3px 5px black;
+}
+.recetas_item{
+	box-shadow: 5px 5px 8px black;
+}
+.categorias{
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 1px 3px black;
+}
+.categorias_show{
+	margin-top: 10px;
+	height: 80vh;
+	overflow-y: scroll;
+	box-shadow: 0px 1px 3px black;
+	border-radius: 10px 0px 0px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.categorias_show h2{
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 10px 0px 0px 0px;
+	color: white;
+	background-color: steelblue;
+}
+.comentarios{
+	margin-top: 30px;
+	padding-top:10px;
+	box-sizing: border-box;
+	height:50vh;
+	background-color: white;
+	overflow-y: scroll;
+}
